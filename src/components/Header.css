@@ -51,6 +51,18 @@
 
 .headerActions > div {
   margin: 10px;
+}
+
+.themeSwitchContainer {
   background-color: #1c1c1e;
   border-radius: 50px;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.themeSwitchContainer > img {
+  height: 25px;
 }
