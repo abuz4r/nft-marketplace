@@ -10,7 +10,9 @@ function Header() {
       <div className="logoContainer">
         <img src={unnamed} className="logo" alt="" />
       </div>
-
+      <div className="title">
+        <div>NFT</div>BARTA
+      </div>
       <div className="searchBar">
         <div className="searchIconContainer">
           <img src={searchIcon} />
@@ -29,6 +31,7 @@ function Header() {
         <div className="themeSwitchContainer">
           <img src={themeSwitchIcon} />
         </div>
+        <div className="loginButton">GET IN</div>
       </div>
     </div>
   );
