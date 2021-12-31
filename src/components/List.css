@@ -1,0 +1,9 @@
+.list {
+  cursor: pointer;
+  display: flex;
+  overflow: scroll;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}

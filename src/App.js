@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import CollectionCard from './components/CollectionCard';
 import List from './components/List';
+import Main from './components/Main';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -20,12 +20,7 @@ function App() {
   return (
     <div className='app'>
       <Header />
-      <CollectionCard
-        id={0}
-        name={'GENESIS ICE CUBE'}
-        traits={[{ value: 7 }]}
-        image='https://ipfs.thirdweb.com/ipfs/bafkreicdldqdazb7jzrz5yhwc7j3alkhyycy6x3mcec4opvxxegnr2qvtu'
-      />
+      <Main />
       <List listData={listData} />
     </div>
   );

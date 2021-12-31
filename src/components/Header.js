@@ -24,7 +24,7 @@ function Header() {
       </div>
       <div className="headerItems">
         <p>Drops</p>
-        <p>MarketPlace</p>
+        <p>Marketplace</p>
         <p>Create</p>
       </div>
       <div className="headerActions">

@@ -1,0 +1,45 @@
+.main {
+  max-height: 50vh;
+}
+
+.mainContent {
+  display: flex;
+  border-bottom: 1px solid white;
+}
+
+.highlight {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.selectedNft {
+  max-width: min(30vw, 40vh);
+  max-height: 30vw;
+}
+.details {
+  object-fit: contain;
+
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.owner {
+  height: 20px;
+}
+.image {
+  height: 10vh;
+}
+
+.link {
+  display: flex;
+}
