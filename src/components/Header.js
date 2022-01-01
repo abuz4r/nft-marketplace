@@ -11,7 +11,7 @@ function Header() {
         <img src={unnamed} className="logo" alt="" />
       </div>
       <div className="title">
-        <div>NFT</div>BARTA
+        <div>NFT</div>BARTER
       </div>
       <div className="searchBar">
         <div className="searchIconContainer">

@@ -1,5 +1,5 @@
 .main {
-  max-height: 50vh;
+  margin-top: 20px;
 }
 
 .mainContent {
@@ -20,26 +20,37 @@
   display: flex;
   margin-right: 20px;
 }
+.titleMain {
+  font-size: 100px;
+  font-weight: 600;
+}
 
+.itemNumber {
+  font-size: 20px;
+}
 .selectedNft {
+  object-fit: contain;
   max-width: min(30vw, 40vh);
   max-height: 30vw;
 }
-.details {
-  object-fit: contain;
 
+.details {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex: 0.75;
 }
 
-.owner {
-  height: 20px;
-}
 .image {
-  height: 10vh;
+  height: 50px;
+  border-radius: 25px;
 }
 
 .link {
+  display: flex;
+  height: 30px;
+}
+
+.ownerDetails {
   display: flex;
 }
